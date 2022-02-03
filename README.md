@@ -1,5 +1,7 @@
 # React UI Component Library
 
+https://www.npmjs.com/package/thedevdesigner-react-lib
+
 A collection of reusable React UI components, by yours truly, thedevdesigner.
 
 Right now, I am coming up with a list of simple components to add in this package.
@@ -17,3 +19,4 @@ import { Button } from 'thedevdesigner-react-lib
 
 <Button label='Click Me' />
 ```
+
