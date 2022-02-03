@@ -1,0 +1,21 @@
+.button {
+	padding: 0.5rem;
+	min-width: 5rem;
+	background: #f4f4f4;
+	border: 1px solid #323330;
+	color: #323330;
+}
+.button.primary {
+	background: #24a0ed;
+	border: 1px solid #24a0ed;
+	color: white;
+}
+.button.secondary {
+	background: white;
+	border: 1px solid #24a0ed;
+	color: #323330;
+}
+.button.ghost {
+	border: 1px solid #f4f4f4;
+	color: gray;
+}
