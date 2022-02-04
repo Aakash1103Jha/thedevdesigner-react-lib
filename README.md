@@ -12,11 +12,26 @@ Run `npm i --save thedevdesigner-react-lib` in your project root (that contains 
 
 ## Example
 
-```javascript
+``` javascript
 import { Button } from 'thedevdesigner-react-lib
-
 ...
+// A simple button with just mandatory lable
+// all other props take default values
 
-<Button label='Click Me' />
+<Button label="Click Me" />
+
+// A customised button with values provided for optional props
+// rounded and/or loadingIcon props are mandatory when
+// isRounded and/or isLoading is true, respectively, as shown below
+
+<Button
+    label = 'Hello World' 
+    size = 'lg' 
+    btnType = 'primary' 
+    onClick = { onClickHandler } 
+    isRounded = { true }
+    rounded = 'soft'
+    isLoading = { true }
+    loadingIcon = { <SomeLoaderComponent/> }
+/>
 ```
-
