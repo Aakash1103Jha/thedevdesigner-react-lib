@@ -12,8 +12,8 @@ Run `npm i --save thedevdesigner-react-lib` in your project root (that contains 
 
 ## Example
 
-``` javascript
-import { Button } from 'thedevdesigner-react-lib
+```javascript
+import { Button } from 'thedevdesigner-react-lib'
 ...
 // A simple button with just mandatory lable
 // all other props take default values
@@ -25,10 +25,10 @@ import { Button } from 'thedevdesigner-react-lib
 // isRounded and/or isLoading is true, respectively, as shown below
 
 <Button
-    label = 'Hello World' 
-    size = 'lg' 
-    btnType = 'primary' 
-    onClick = { onClickHandler } 
+    label = 'Hello World'
+    size = 'lg'
+    btnType = 'primary'
+    onClick = { onClickHandler }
     isRounded = { true }
     rounded = 'soft'
     isLoading = { true }
