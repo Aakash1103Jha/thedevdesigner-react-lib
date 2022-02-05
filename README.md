@@ -21,15 +21,11 @@ import { Button } from 'thedevdesigner-react-lib'
 <Button label="Click Me" />
 
 // A customised button with values provided for optional props
-// rounded and/or loadingIcon props are mandatory when
-// isRounded and/or isLoading is true, respectively, as shown below
-
 <Button
     label = 'Hello World'
     size = 'lg'
     btnType = 'primary'
     onClick = { onClickHandler }
-    isRounded = { true }
     rounded = 'soft'
     isLoading = { true }
     loadingIcon = { <SomeLoaderComponent/> }

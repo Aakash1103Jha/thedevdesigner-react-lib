@@ -1,6 +1,5 @@
 .button {
 	padding: 0.5rem;
-	/* min-width: 5rem; */
 	background: #f4f4f4;
 	border: 1px solid #323330;
 	color: #323330;
@@ -11,14 +10,12 @@
 	background: white;
 }
 .button:hover {
-	box-shadow: 0px 0px 3px 3px rgb(50, 51, 48, 0.1);
+	box-shadow: 0px 0px 5px 1px rgb(50, 51, 48, 0.1);
 }
 .button:active {
-	box-shadow: inset 0px 0px 3px 3px rgb(50, 51, 48, 0.1);
+	box-shadow: inset 0px 0px 5px 1px rgb(50, 51, 48, 0.1);
 }
-.button.active {
-	font-weight: 600;
-}
+/* btnType */
 .button.primary {
 	background: #24a0ed;
 	border: 1px solid #24a0ed;
@@ -27,12 +24,13 @@
 .button.secondary {
 	background: white;
 	border: 1px solid #24a0ed;
-	color: #323330;
+	color: #24a0ed;
 }
 .button.ghost {
 	border: 1px solid #f4f4f4;
 	color: gray;
 }
+/* button size */
 .button.button-lg {
 	width: 10rem;
 	font-size: 1rem;
@@ -44,4 +42,23 @@
 .button.button-sm {
 	width: 6rem;
 	font-size: 0.5rem;
+}
+/* rounded button */
+.button.button-soft {
+	border-radius: 0.2rem;
+}
+.button.button-hard {
+	border-radius: 0.4rem;
+}
+/* active state when isActive === true */
+.button.active {
+	font-weight: 600;
+}
+/* disabled state when isDisabled === true */
+.button.disabled {
+	background: white;
+	border: solid 0.5px lightgray;
+	color: lightgray;
+	cursor: not-allowed;
+	box-shadow: none;
 }
