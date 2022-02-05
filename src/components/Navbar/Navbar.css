@@ -1,0 +1,22 @@
+.navbar {
+	background: #f4f4f4;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+}
+/* left aligned navbar */
+.navbar.navbar-left {
+	padding: 1rem 0rem;
+	flex-direction: column;
+	align-items: center;
+	min-width: 4rem;
+	height: 100%;
+}
+/* top aligned navbar */
+.navbar.navbar-top {
+	padding: 0rem 1rem;
+	flex-direction: row;
+	width: 100%;
+	min-height: 4rem;
+	align-items: center;
+}
