@@ -1,0 +1,12 @@
+.label {
+	font-size: calc(1rem + 0.1vmin);
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+.message {
+	color: black;
+}
+.error {
+	color: red;
+	font-weight: 100;
+}

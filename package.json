@@ -1,6 +1,6 @@
 {
 	"name": "thedevdesigner-react-lib",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A collection of react components.",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
